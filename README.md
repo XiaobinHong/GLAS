@@ -1,5 +1,5 @@
 # GLAS: Gloving Label and Covariate Shift for Graph OOD Generalization
----
+
 
 Graph Out-Of-Distribution (OOD) generalization aims to adapt a trained graph neural network (GNN) to unseen target graphs. Several methods have tried the invariance principle to improve the OOD generalization of GNNs. However, previous approaches typically assume that both source and target graphs have balanced label distribution. In the real world, it is natural that label distribution shifts as the domain changes. Unfortunately, the majority of existing graph OOD algorithms fail to address the coexistence of label and covariate shifts. We introduce a novel framework to tackle the challenges of graph OOD generalization by Governing Label and covAriate Shifts (GLAS). In training time, we present a class-calibrated invariant training method, incorporating a simple yet efficient latent augmentation strategy for training an effective GNN encoder and generating label-unbiased prototypes. During test time, we introduce a target distribution inspired TTA method, leveraging calibrated entropy minimization and a learnable consistency loss to align with the main task. In a joint effort during training and test times, GLAS significantly enhances the generalization performance of GNNs on unseen target graphs. Extensive experiments on 6 graph OOD benchmarks in comparison with 5 state-of-the-art graph OOD algorithms, validate the superiority and effectiveness of the proposed method.
 
@@ -7,7 +7,7 @@ Source code for GLAS (Gloving Label and Covariate Shift for Graph OOD Generaliza
 
 
 ## Installation
----
+
 deeprobust==0.2.5 \
 dgl==0.9.1\
 dgl_cu102==0.6.1\
@@ -29,7 +29,7 @@ tqdm==4.60.0\
 visualization==1.0.0
 
 ## Data download
----
+
 In our experiment, we consider three types of distribution shifts with six real-world datasets proposed by EERM (https://github.com/qitianwu/GraphOOD-EERM). 
 
 You can make a directory ./data and download all the datasets through the Google drive:
@@ -45,7 +45,7 @@ args.data_dir = YOUR_DATA_PATH
 ``
 
 ## Running the code
----
+
 To run the code, you can use this script:
 
 ``
