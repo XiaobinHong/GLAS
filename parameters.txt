@@ -1,0 +1,156 @@
+Namespace(dataset='amazon-photo', debug=1, diff_nlayer=2, dropout=0.0, epochs=500, gnn='GCN', gpu_id=0, hidden=32, lambda1=0.1, lr=0.001, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.001, with_bn=False)
+
+
+Namespace(dataset='cora', debug=0, diff_nlayer=1, dropout=0.2, epochs=500, gnn='GCN', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+
+
+Namespace(dataset='ogb-arxiv', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gnn='GCN', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+
+
+Namespace(dataset='ogb-arxiv', debug=0, diff_nlayer=2, dropout=0.5, epochs=500, gnn='GCN', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+
+
+Namespace(dataset='ogb-arxiv', debug=0, diff_nlayer=2, dropout=0.5, epochs=500, gnn='GCN', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+test accuracy: [0.4889335306971171, 0.4762202142815324, 0.4475649651256095]  flatten test: 0.4681713955918826
+
+
+Namespace(dataset='twitch-e', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gnn='GCN', gpu_id=0, hidden=64, lambda1=0.1, lr=0.001, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+test accuracy: [0.6460330345641907, 0.6191651581013216, 0.6346003378840044, 0.5529688751493009, 0.5538562552396256]  flatten test: 0.6119839382957899
+
+
+Namespace(dataset='fb100', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gnn='GCN', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=4, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+test accuracy: [0.5194686432112432, 0.5711627906976744, 0.5661596958174905]  flatten test: 0.5429424578407617
+
+
+Namespace(dataset='elliptic', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='GCN', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+test accuracy: [0.64, 0.63, 0.57, 0.56, 0.54, 0.58, 0.54, 0.49, 0.49]  flatten test: 0.5744833716615149
+
+
+Namespace(dataset='cora', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='GAT', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+test accuracy: [0.9804283604135894, 0.9996307237813885, 1.0, 0.9139586410635155, 1.0, 1.0, 0.9992614475627769, 0.9715657311669128]  flatten test: 0.983105612998523
+
+
+Namespace(dataset='amazon-photo', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='GAT', gpu_id=0, hidden=32, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+test accuracy: [0.9658823529411765, 1.0, 0.9699346405228758, 0.9998692810457517, 0.9998692810457517, 0.9997385620915032, 0.9998692810457517, 0.9196078431372549]  flatten test: 0.9818464052287582
+
+
+Namespace(dataset='ogb-arxiv', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='GAT', gpu_id=0, hidden=128, lambda1=0.1, lr=0.001, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+test accuracy: [0.49245788397829, 0.47846451084092817, 0.44600127564142134]  flatten test: 0.46925548674913037
+
+
+Namespace(dataset='ogb-arxiv', debug=0, diff_nlayer=2, dropout=0.5, epochs=500, gat_heads=8, gnn='GAT', gpu_id=0, hidden=128, lambda1=0.1, lr=0.001, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+test accuracy: [0.4992951293437654, 0.4799867293768662, 0.44680369524514946]  flatten test: 0.4716810432232604
+
+
+Namespace(dataset='twitch-e', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='GAT', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+test accuracy: [0.6506925808644627, 0.6296868128180134, 0.6337405113730499, 0.5391102367736949, 0.5476055457070002]  flatten test: 0.6101812396835784
+
+
+Namespace(dataset='fb100', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='GCN', gpu_id=0, hidden=256, lambda1=0.1, lr=0.001, nlayers=4, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+test accuracy: [0.5266400346537036, 0.5631395348837209, 0.5457858048162231]  flatten test: 0.5378760065594635
+
+
+Namespace(dataset='elliptic', debug=0, diff_nlayer=1, dropout=0.5, epochs=200, gat_heads=8, gnn='GAT', gpu_id=0, hidden=32, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+test accuracy: [0.82, 0.79, 0.74, 0.74, 0.72, 0.66, 0.67, 0.56, 0.48]  flatten test: 0.6769419155083204
+
+
+Namespace(dataset='cora', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='GPR', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=True)
+test accuracy: [0.9963072378138847, 0.9981536189069424, 0.9977843426883308, 0.9955686853766618, 0.9970457902511078, 0.9992614475627769, 0.9985228951255539, 0.9955686853766618]  flatten test: 0.99727658788774
+
+
+Namespace(dataset='ogb-arxiv', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='GPR', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+test accuracy: [0.4924931275111017, 0.4894713217930954, 0.4648684237598502]  flatten test: 0.4808139262818013
+
+
+Namespace(dataset='amazon-photo', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='GPR', gpu_id=0, hidden=64, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+test accuracy: [0.9326797385620915, 0.947843137254902, 0.9188235294117647, 0.9426143790849674, 0.9337254901960784, 0.9269281045751634, 0.9418300653594771, 0.8101960784313725]  flatten test: 0.9193300653594771
+
+
+Namespace(dataset='elliptic', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='GPR', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+test accuracy: [0.95, 0.88, 0.8, 0.76, 0.8, 0.87, 0.82, 0.75, 0.5]  flatten test: 0.8162194790117112
+
+
+Namespace(dataset='fb100', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='GPR', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+test accuracy: [0.5740722914761515, 0.5506976744186046, 0.5511089987325729]  flatten test: 0.5627432263749174
+
+
+Namespace(dataset='ogb-arxiv', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='GPR', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+test accuracy: [0.4859378304081201, 0.4794012607091977, 0.45785239594263727]  flatten test: 0.4726793429939634
+
+
+Namespace(dataset='twitch-e', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='GPR', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+test accuracy: [0.6326306891369686, 0.6021123755120523, 0.6344582427854992, 0.5591643364013209, 0.5637479587292162]  flatten test: 0.6106606231187376
+
+
+Namespace(dataset='cora', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='GPR', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=True)
+test accuracy: [0.9970457902511078, 0.9974150664697193, 0.9977843426883308, 0.9929837518463811, 0.9966765140324964, 0.9992614475627769, 0.9988921713441654, 0.9959379615952733]  flatten test: 0.9969996307237814
+
+
+Namespace(dataset='amazon-photo', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='GAT', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=True)
+test accuracy: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]  flatten test: 1.0
+
+
+Namespace(dataset='cora', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='GAT', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=True)
+test accuracy: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]  flatten test: 1.0
+
+
+Namespace(dataset='cora', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='SAGE', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=True)
+test accuracy: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0]  flatten test: 1.0
+
+
+Namespace(dataset='amazon-photo', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='SAGE', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=True)
+test accuracy: [1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 1.0, 0.9998692810457517]  flatten test: 0.9999836601307189
+
+
+Namespace(dataset='ogb-arxiv', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='SAGE', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+test accuracy: [0.4728272362021569, 0.4584024511621553, 0.440692961339835]  flatten test: 0.4548815298943986
+
+
+Namespace(dataset='elliptic', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='SAGE', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+test accuracy: [0.79, 0.67, 0.59, 0.59, 0.54, 0.57, 0.51, 0.49, 0.49]  flatten test: 0.590258357710623
+
+
+Namespace(dataset='elliptic', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='SAGE', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=True)
+test accuracy: [0.87, 0.7, 0.52, 0.52, 0.66, 0.75, 0.76, 0.64, 0.5]  flatten test: 0.6626583102788046
+
+
+Namespace(dataset='fb100', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='SAGE', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=True)
+test accuracy: [0.5337632959522549, 0.5803488372093023, 0.5538973384030418]  flatten test: 0.5464424700785667
+
+
+Namespace(dataset='twitch-e', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='SAGE', gpu_id=0, hidden=32, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+test accuracy: [0.6606197223414914, 0.6266507645345721, 0.6489972923325484, 0.5652965643223495, 0.5937011514077127]  flatten test: 0.6228730939652966
+
+
+Namespace(dataset='twitch-e', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='SAGE', gpu_id=0, hidden=32, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=True)
+test accuracy: [0.6683123568770575, 0.6345652476635186, 0.6549011925104394, 0.5717542331202136, 0.5968768557007127]  flatten test: 0.6270673982405076
+
+
+Namespace(dataset='cora', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='GIN', gpu_id=0, hidden=32, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=True)
+test accuracy: [0.9346381093057607, 0.9944608567208272, 0.9955686853766618, 0.895864106351551, 0.9937223042836041, 0.9867060561299852, 0.9531019202363368, 0.9287296898079763]  flatten test: 0.9603489660265879
+
+
+Namespace(dataset='amazon-photo', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='GIN', gpu_id=0, hidden=32, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=True)
+test accuracy: [0.9124183006535947, 0.9231372549019607, 0.9122875816993464, 0.9231372549019607, 0.9186928104575164, 0.9218300653594771, 0.9220915032679738, 0.9027450980392157]  flatten test: 0.9170424836601307
+
+
+Namespace(dataset='ogb-arxiv', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='GIN', gpu_id=0, hidden=128, lambda1=0.1, lr=0.001, nlayers=5, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+test accuracy: [0.4805808134207373, 0.468062684178685, 0.4464950723206386]  flatten test: 0.4626573492021401
+
+
+Namespace(dataset='ogb-arxiv', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='GIN', gpu_id=0, hidden=256, lambda1=0.1, lr=0.001, nlayers=3, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=False)
+test accuracy: [0.4863255092690491, 0.4752639487910072, 0.44931382836450423]  flatten test: 0.4678750253474551
+
+
+Namespace(dataset='elliptic', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='GCN', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=True)
+test accuracy: [0.78, 0.72, 0.54, 0.58, 0.71, 0.57, 0.56, 0.57, 0.49]  flatten test: 0.6393448033310901
+
+
+Namespace(dataset='elliptic', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='GPR', gpu_id=0, hidden=128, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=True)
+test accuracy: [0.94, 0.88, 0.8, 0.77, 0.82, 0.89, 0.86, 0.73, 0.5]  flatten test: 0.8206297722432926
+
+
+Namespace(dataset='amazon-photo', debug=0, diff_nlayer=1, dropout=0.5, epochs=500, gat_heads=8, gnn='GCN', gpu_id=0, hidden=64, lambda1=0.1, lr=0.01, nlayers=2, noise_alpha=5.0, normalize_features=True, ood=1, patience=500, proj_nlayer=1, seed=42, test_val=0, tune=0, weight_decay=0.0005, with_bn=2)
+test accuracy: [0.9890196078431372, 0.9918954248366013, 0.9891503267973856, 0.9933333333333333, 0.9920261437908496, 0.9903267973856209, 0.9928104575163399, 0.9852287581699346]  flatten test: 0.9904738562091503
+
+
