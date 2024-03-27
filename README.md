@@ -8,7 +8,6 @@ Source code for GLAS (Gloving Label and Covariate Shift for Graph OOD Generaliza
 
 ## Installation
 ---
-``
 deeprobust==0.2.5 \
 dgl==0.9.1\
 dgl_cu102==0.6.1\
@@ -28,7 +27,6 @@ torch_scatter==2.0.8\
 torch_sparse==0.6.12\
 tqdm==4.60.0\
 visualization==1.0.0
-``
 
 ## Data download
 ---
